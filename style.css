@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav.navbar {
+  background-color: white;
+}
+
+.nav-item a {
+  color: #01416c;
+  font-size: 14px;
+}
+
+h4 {
+  color: #01416c;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #01416c;
+  color: white;
+}
+
+.sosmed {
+  color: white;
+  /* height: 100px;
+  width: 25px; */
+  /* margin: 4px; */
+}
+footer {
+  background-color: #01416c;
+}
+
+.service {
+}
+
+.testimoni {
+  padding: 100px;
+}
+.testimoni h3 {
+  color: #01416c;
+  font-weight: 700;
+}
+
+.company h3 {
+  color: #01416c;
+  font-weight: 700;
+}
+
+.form {
+  padding: 100px;
+  background-color: white;
+
+  border-radius: 10px;
+}
+
+.form-class {
+  background-color: #eef6fb;
+  height: auto;
+  padding: 50px;
+}
+
+.form-class h1 {
+  color: #01416c;
+}
+.form-class p {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.form form-label {
+  color: #01416c;
+}
+/* .form input {
+  font-size: 18px;
+}
+
+.form form-input {
+  font-size: 18px;
+}
+
+.form form-select {
+  font-size: 18px;
+} */

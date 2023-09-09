@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Qiscus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top mx-5">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://www.qiscus.com/v3/images/logos/qiscus.svg"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mengapa Qiscus
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Solusi
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Produk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Perusahaan
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Bantuan
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- Bagian kanan -->
+          <ul class="navbar-nav mx-5 mb-2 mb-lg-0 mx-5">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Indonesia
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Masuk
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button
+            class="btn btn-primary"
+            type="submit"
+            style="background-color: #01416c"
+          >
+            Kontak
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Section -->
+    <div class="container text-center py-5 h-100">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="text-start" style="color: #01416c">
+            Omnichannel
+            <span class="fw-bold" style="color: orange">Sales</span> Support
+            Marketing Platform untuk Tingkatkan Penjualan dan Loyalitas
+            Pelanggan.
+          </h1>
+          <p class="text-start py-3">
+            Lakukan percakapan langsung dengan customer melalui berbagai channel
+            secara scalable dalam satu platform dan berikan customer experience
+            terbaik dengan Qiscus.
+          </p>
+          <p class="text-start py-3">
+            Hubungi kami dan cari tahu bagaimana Qiscus dapat membantu bisnis
+            Anda terus berkembang!
+          </p>
+          <button class="btn btn-primary btn-lg align-items-start float-start">
+            Get Demo + Free Trial
+          </button>
+        </div>
+        <div class="col-md-6">
+          <img src="/Image/main.png" alt="" / style="height: 500px; ">
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Company -->
+    <div class="company container text-center pt-3 gap-3">
+      <div class="row">
+        <h3>Digunakan Oleh 2000+ Perusahaan Terpercaya</h3>
+        <div class="col-md-2">
+          <img src="Image/berita-satu_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/daily-social_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/detik_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/investing_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/kontan_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/kumparan_120.png" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="Image/liputan-6_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/merdeka_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/republika_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/swa_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/tech-in-asia_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/tribun-news_120.png" alt="" />
+        </div>
+        <h5>Dan masih banyak lagi perusahaan dari berbagai industri.</h5>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- Service Section -->
+    <div class="service container text-center py-5">
+      <div class="row gy-5">
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h4 class="text-start py-3">
+              Kelola Percakapan dari 20+ Channel dalam Satu Platform.
+            </h4>
+            <p class="text-start">
+              Mudahkan tim Anda respon dengan cepat setiap chat pelanggan dari
+              live chat, WhatsApp, Instagram, Facebook, Tokopedia, dan berbagai
+              aplikasi lainnya dari satu tempat.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/Image/image1.png"
+            alt=""
+            class="rounded-4"
+            style="width: 500px"
+          />
+        </div>
+
+        <!-- Row ke 2 -->
+        <div class="col-md-6">
+          <img
+            src="/Image/collect-leads-seamlessly_640.png"
+            alt=""
+            class="rounded-4"
+            style="width: 500px"
+          />
+        </div>
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h4 class="text-start py-3">
+              Kumpulkan Leads Lebih Banyak dan Seamless.
+            </h4>
+            <p class="text-start">
+              Qiscus memungkinkan Anda manfaatkan aplikasi chat untuk lead
+              generation dengan user experience yang lebih baik dan proses
+              implementasi yang mudah.
+            </p>
+          </div>
+        </div>
+
+        <!-- Row ke tiga -->
+
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h4 class="text-start py-3">
+              Tingkatkan Konversi Penjualan Melalui Percakapan.
+            </h4>
+            <p class="text-start">
+              Permudah tim Anda lakukan follow-up calon pelanggan memalui
+              percakapan yang bermakna. Bangun hubungan yang hangat dan hasilkan
+              deal lebih banyak.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/Image/overviw.png"
+            alt=""
+            class="rounded-4"
+            style="width: 500px"
+          />
+        </div>
+
+        <!-- Row ke 4 -->
+        <div class="col-md-6">
+          <img
+            src="/Image/support.pns.png"
+            alt=""
+            class="rounded-4"
+            style="width: 500px"
+          />
+        </div>
+
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h4 class="text-start py-3">
+              Berikan Support yang Baik dan Cepat agar Bisnis Dicintai
+              Pelanggan.
+            </h4>
+            <p class="text-start">
+              Fitur alokasi agent otomatis, performance analytics, dan CSAT
+              bantu Anda pastikan tim memberikan layanan dukungan terbaik kepada
+              setiap pelanggan.
+            </p>
+          </div>
+        </div>
+        <!-- Row ke 5 -->
+
+        <div class="col-md-6 d-flex align-items-center">
+          <div>
+            <h4 class="text-start py-3">
+              Buat Kerja Tim Lebih Efektif dengan Human-Bot Collaboration.
+            </h4>
+            <p class="text-start">
+              Solusi Chatbot dari Qiscus dapat membuat kinerja tim sales atau
+              support bekerja lebih optimal. Implementasinya pun mudah dan cepat
+              dengan teknologi No-Code Chatbot.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="/Image/bot.png"
+            alt=""
+            class="rounded-4"
+            style="width: 500px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Service Section -->
+
+    <!-- Form -->
+
+    <div class="form-class container-fluid">
+      <h1 class="text-center mb-5 fw-bold">
+        Dapatkan Free Trial dan Demo Solusi dari Qiscus
+      </h2>
+      <p class="text-center mb-5">
+        Isi form berikut ini dan kami akan segera hubungi Anda untuk atur jadwal
+        demo. <br />
+        Tim kami akan tunjukkan kepada Anda bagaimana Qiscus dapat membantu
+        bisnis Anda terus berkembang.
+      </p>
+
+      <div class="container form">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-4">
+              <label for="namaPerusahaan" class="form-label"
+                >KETIK NAMA PERUSAHAAN
+              </label>
+              <input
+                type="namaperusahaan"
+                class="form-control form-control-lg"
+                id="namaPerusahaan"
+                placeholder="Ketik nama perusahaan"
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="namaPekerjaan" class="form-label"
+                >NAMA PEKERJAAN
+              </label>
+              <input
+                type="namapekerjaan"
+                class="form-control form-control-lg"
+                id="namaPekerjaan"
+                placeholder="CEO"
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="nomerHp" class="form-label"
+                >NOMER HP (+62812345678)
+              </label>
+              <input
+                type="nomerhp"
+                class="form-control form-control-lg"
+                id="nomerHp"
+                placeholder="NOMER HP (+62812345678)"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="mb-4">
+              <label for="namaPerusahaan" class="form-label"
+                >Email Perusahaan
+              </label>
+              <input
+                type="namaperusahaan"
+                class="form-control form-control-lg"
+                id="namaPerusahaan"
+                placeholder="Email Perusahaan (andy@company.com)"
+              />
+            </div>
+
+            <div class="mb-4">
+              <label for="jumlahKaryawan" class="form-label"
+                >Email Perusahaan
+              </label>
+              <select
+                class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example"
+              >
+                <option selected class="formInput text-center">
+                  ---Chooise---
+                </option>
+                <option value="1">1-50 Karyawan</option>
+                <option value="2">51-100 Karyawan</option>
+                <option value="3">101-500 Karyawan</option>
+                <option value="4">501-1000 Karyawan</option>
+                <option value="5">1000+ Karyawan</option>
+              </select>
+            </div>
+
+            <div class="mb-4">
+              <label for="jumlahKaryawan" class="form-label"
+                >Email Perusahaan
+              </label>
+              <select
+                class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example"
+              >
+                <option selected class="text-center">---Chooise---</option>
+                <option value="1">Sosial Media</option>
+                <option value="2">Mass Media</option>
+                <option value="3">Referal</option>
+                <option value="4">Event</option>
+                <option value="5">Other</option>
+              </select>
+            </div>
+            <button
+              class="btn btn-primary btn-lg align-items-center"
+            >
+              Get Demo + Free Trial
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Form -->
+
+    <!-- Telah diinput oleh -->
+
+    <div class="testimoni container text-center pb-3">
+      <div class="row">
+        <h3>Telah Diliput Oleh:</h3>
+        <div class="col-md-2">
+          <img src="Image/berita-satu_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/daily-social_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/detik_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/investing_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/kontan_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/kumparan_120.png" alt="" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <img src="Image/liputan-6_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/merdeka_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/republika_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/swa_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/tech-in-asia_120.png" alt="" />
+        </div>
+        <div class="col-md-2">
+          <img src="Image/tribun-news_120.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+    <!-- Footer Section -->
+    <footer class="text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left border-bottom pb-3">
+          <div class="col-md-3">
+            <h5 class="text-start mb-3">COMPANY</h5>
+            <p class="text-start">
+              <span class="fw-bold">Singapore:</span> <br />
+              1 Coleman Street, #10-06 The Adelphi, Singapore 179803
+            </p>
+            <p class="text-start">
+              <span class="fw-bold">Jakarta:</span> <br />
+              Sampoerna Strategic Square North Tower Lantai 25, Jl. Jenderal
+              Sudirman No.Kav. 45, Karet Semanggi, Setiabudi, South Jakarta
+              City, Jakarta 12930
+            </p>
+            <p class="text-start">
+              <span class="fw-bold">Yogyakarta:</span> <br />
+              Jl. Timoho No. 43, Muja Muju, Yogyakarta 55165
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-start mb-3">Produk</h5>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Omnichannel Chat
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Omnichannel CRM
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Ticket
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus App Center
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                WhatsApp Business API
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Instagram Messenger API
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                In-App Chat SDK
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Chatbot and Robolabs
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Call Centre
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus AI Assistant
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus CDP
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Shop
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Product" class="text-decoration-none text-white">
+                Qiscus Survey
+              </a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-start mb-3">Bantuan</h5>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Kontak Sales
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Pusat Bantuan
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                White Paper
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Blog
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Documentation
+              </a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-start mb-3">Perusahaan</h5>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Tentang Kami
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Pers & Media
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Kebijakan Privasi
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Persyaratan Layanan
+              </a>
+            </p>
+            <p class="text-start">
+              <a href="#Kontak-Sales" class="text-decoration-none text-white">
+                Karir
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between pt-3">
+          <div class="col-4 text-start pb">
+            <p>Qiscus 2023</p>
+            <a href="#linkedin"
+              ><i
+                class="sosmed fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x p-1"
+              ></i
+            ></a>
+            <a href="#facebook"
+              ><i
+                class="sosmed fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x p-1"
+              ></i
+            ></a>
+            <a href="#twiter"
+              ><i
+                class="sosmed fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x p-1"
+              ></i
+            ></a>
+            <a href="#ig"
+              ><i
+                class="sosmed fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x p-1"
+              ></i
+            ></a>
+            <a href="#mail"
+              ><i
+                class="sosmed fa fa-envelope-o fa-lg white-text mr-md-5 mr-3 fa-2x p-1"
+              ></i
+            ></a>
+          </div>
+          <div class="col-4">
+            <img src="Image/ojk.png" alt="" / style="height: 75px; width:
+            auto;"> <img src="Image/ojk.png" alt="" / style="height: 75px;
+            width: auto;">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
